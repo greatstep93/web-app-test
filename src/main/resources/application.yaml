@@ -1,0 +1,9 @@
+spring.application.name: web-app-test
+spring:
+  threads:
+    virtual:
+      enabled: false
+server:
+  netty:
+    max-keep-alive-requests:
+#-Dreactor.netty.ioWorkerCount=1
