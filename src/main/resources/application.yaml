@@ -1,6 +1,4 @@
 spring.application.name: web-app-test
-#spring:
-#  threads:
-#    virtual:
-#      enabled: true
+virtual: false
+limit: 4
 #-Dreactor.netty.ioWorkerCount=1000 -Xmx1024m
