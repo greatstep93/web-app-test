@@ -1,13 +1,6 @@
 spring.application.name: web-app-test
-spring:
-  threads:
-    virtual:
-      enabled: false
-server:
-  tomcat:
-    max-connections: 10000
-    threads:
-      max: 200
-  port: 8080
-
-#-Xmx1024m
+#spring:
+#  threads:
+#    virtual:
+#      enabled: true
+#-Dreactor.netty.ioWorkerCount=1000 -Xmx1024m
